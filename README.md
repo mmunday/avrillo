@@ -51,6 +51,8 @@ As an example, the following cURL command could be used to make requests with th
 
 ```bash
 curl -H "X-TOKEN: my-not-so-secret-token" http://localhost/api/quotes
+
+curl -H "X-TOKEN: my-not-so-secret-token" -X POST http://localhost/api/quotes/refresh
 ```
 
 Tools such as [Postman](https://www.postman.com/) could also be used to make requests.
